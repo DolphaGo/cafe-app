@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: local
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: false
+  freemarker:
+    cache: false
+
+datasource:
+  url: jdbc:mysql://localhost:3306/cafedb?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
